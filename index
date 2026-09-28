@@ -223,13 +223,13 @@
             <p>Highlights of computational workflows, parametric geometry rationalization, and 4D construction sequencing.</p>
             
             <div class="media-grid">
-                <!-- Media Item 1: Replace 'your-animation-1.gif' or video link -->
+                <!-- Media Item 1: Replace 'your-animation-1.jpg' or video link -->
                 <div class="media-box">
-                    <img src="your-animation-1.gif" alt="Parametric Modeling Workflow">
+                    <img src="your-animation-1.jpg" alt="Parametric Modeling Workflow">
                     <p><strong>Rhino / Grasshopper Parametric Integration</strong><br>Complex free-form geometry rationalized into fabrication-ready steel assemblies.</p>
                 </div>
 
-                <!-- Media Item 2: Replace 'your-video-link.mp4' or GIF -->
+                <!-- Media Item 2: Replace 'your-video-link.mp4' or JPG -->
                 <div class="media-box">
                     <video controls muted autoplay loop>
                         <source src="your-animation-2.mp4" type="video/mp4">
