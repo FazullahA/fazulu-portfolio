@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fazullah Amanullah | Senior Façade Specialist & Structural Designer</title>
+    <title>Fazullah Amanullah | Senior Structural Steel & Façade Specialist</title>
     <style>
         :root {
             --primary: #0f172a; /* Deep Slate Navy */
@@ -115,6 +115,36 @@
             margin-bottom: 0.4rem;
             color: #475569;
         }
+        /* Media Showcase Styles */
+        .media-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        @media (max-width: 768px) {
+            .media-grid { grid-template-columns: 1fr; }
+        }
+        .media-box {
+            background: #f1f5f9;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1rem;
+            text-align: center;
+        }
+        .media-box img, .media-box video {
+            width: 100%;
+            height: auto;
+            border-radius: 6px;
+            max-height: 250px;
+            object-fit: cover;
+        }
+        .media-box p {
+            font-size: 0.85rem;
+            color: #64748b;
+            margin-top: 0.5rem;
+            margin-bottom: 0;
+        }
         .btn-container {
             display: flex;
             gap: 1rem;
@@ -163,7 +193,7 @@
         <!-- Profile Card -->
         <div class="card">
             <h2>Professional Profile</h2>
-            <p>Senior Structural Steel & Façade Specialist with 19+ years of experience leading end-to-end structural engineering, parametric design, BIM coordination, and site supervision[cite: 5]. Backed by 14+ years across the GCC, successfully delivering iconic mega-projects including Kuwait International Airport (Terminal 2), Qatar National Museum (QNM), NDIA, and Al-Udeid Air Base[cite: 5]. Committed to driving design-to-construction automation using computational BIM workflows across Tekla Structures, Rhino/Grasshopper, Revit/Dynamo, and Navisworks[cite: 5].</p>
+            <p>Senior Structural Steel & Façade Specialist with 19+ years of experience leading end-to-end structural engineering, parametric design, BIM coordination, and site supervision. Backed by 14+ years across the GCC, successfully delivering iconic mega-projects including Kuwait International Airport (Terminal 2), Qatar National Museum (QNM), NDIA, and Al-Udeid Air Base. Committed to driving design-to-construction automation using computational BIM workflows across Tekla Structures, Rhino/Grasshopper, Revit/Dynamo, and Navisworks.</p>
             
             <div class="btn-container">
                 <a href="Fazullah_Amanullah_Portfolio.pptx" class="btn" download>📥 Download Presentation Portfolio (PPTX)</a>
@@ -178,12 +208,35 @@
                 <span class="badge">AutoCAD</span>
                 <span class="badge">Autodesk Revit & Dynamo</span>
                 <span class="badge">Rhino 7.0 & Grasshopper</span>
-                <span class="badge">Navisworks</span>
+                <span class="badge">Navisworks (4D Animation)</span>
                 <span class="badge">Vertex BD (LGS)</span>
                 <span class="badge">BS 8414-2 / BRE Fire Testing</span>
                 <span class="badge">CWCT & UL Accreditations</span>
                 <span class="badge">KIWA BDA Agrément</span>
                 <span class="badge">Building Safety Act Gateway 2</span>
+            </div>
+        </div>
+
+        <!-- Visual Showcase Section for Animations & Videos -->
+        <div class="card">
+            <h2>Parametric & 4D Animation Showcase</h2>
+            <p>Highlights of computational workflows, parametric geometry rationalization, and 4D construction sequencing.</p>
+            
+            <div class="media-grid">
+                <!-- Media Item 1: Replace 'your-animation-1.gif' or video link -->
+                <div class="media-box">
+                    <img src="your-animation-1.gif" alt="Parametric Modeling Workflow">
+                    <p><strong>Rhino / Grasshopper Parametric Integration</strong><br>Complex free-form geometry rationalized into fabrication-ready steel assemblies.</p>
+                </div>
+
+                <!-- Media Item 2: Replace 'your-video-link.mp4' or GIF -->
+                <div class="media-box">
+                    <video controls muted autoplay loop>
+                        <source src="your-animation-2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p><strong>Navisworks 4D Construction Sequence</strong><br>Stage-by-stage erection visualization for complex mega-structure elements.</p>
+                </div>
             </div>
         </div>
 
@@ -195,11 +248,11 @@
                 <h3>Senior Structural Designer</h3>
                 <div class="company-date">Limak Insaat | Kuwait International Airport (T2) | Jul 2017 – Present</div>
                 <ul>
-                    <li>Perform comprehensive structural design from conceptual sketches & 3D modeling to GA drawings, shop drawings, and BOM reports[cite: 5].</li>
-                    <li>Architect parametric workflows transforming complex curved surfaces into precise, fabrication-ready steel assemblies using Rhino/Grasshopper and Tekla Structures[cite: 5].</li>
-                    <li>Manage Site Change Requests (NCR & FCR) and coordinate steel embeds on complex precast concrete ribs and spines[cite: 5].</li>
-                    <li>Designed temporary erection towers (Base + Standard + Top Module + Headstock + Shoe) for erection sequences[cite: 5].</li>
-                    <li>Engineered complex waterfall features, 3D glass planks, secondary purlins, and roof funnel internal brass cladding with 4D Navisworks animations[cite: 5].</li>
+                    <li>Perform comprehensive structural design from conceptual sketches & 3D modeling to GA drawings, shop drawings, and BOM reports.</li>
+                    <li>Architect parametric workflows transforming complex curved surfaces into precise, fabrication-ready steel assemblies using Rhino/Grasshopper and Tekla Structures.</li>
+                    <li>Manage Site Change Requests (NCR & FCR) and coordinate steel embeds on complex precast concrete ribs and spines.</li>
+                    <li>Designed temporary erection towers (Base + Standard + Top Module + Headstock + Shoe) for erection sequences.</li>
+                    <li>Engineered complex waterfall features, 3D glass planks, secondary purlins, and roof funnel internal brass cladding with 4D Navisworks animations.</li>
                 </ul>
             </div>
 
@@ -207,10 +260,10 @@
                 <h3>Technical Manager / Engineering Consultant (Remote)</h3>
                 <div class="company-date">Echo Facades Engineering Solutions Ltd, UK | Feb 2016 – Present</div>
                 <ul>
-                    <li>Lead advanced external wall systems and facades (ventilated rainscreen and ETICS), light-gauge steel (LGS) modular construction, and UK regulatory compliance[cite: 5].</li>
-                    <li>Directed system accreditations under UK standards: UL, KIWA, CWCT, and BRE BS 8414-2[cite: 5].</li>
-                    <li>Managed R&D, design concepts, and testing for the <strong>Salamander BrickSlip Rainscreen System</strong> and <strong>RAFI ETICS BrickSlip System</strong> (tested at Lucideon against EAD 040089)[cite: 5].</li>
-                    <li>Delivered UK projects including Burrows Court Residential Complex, 52 Victoria Road Aldershot, and 72-88 St Stephens Road Enfield modular extension[cite: 5].</li>
+                    <li>Lead advanced external wall systems and facades (ventilated rainscreen and ETICS), light-gauge steel (LGS) modular construction, and UK regulatory compliance.</li>
+                    <li>Directed system accreditations under UK standards: UL, KIWA, CWCT, and BRE BS 8414-2.</li>
+                    <li>Managed R&D, design concepts, and testing for the <strong>Salamander BrickSlip Rainscreen System</strong> and <strong>RAFI ETICS BrickSlip System</strong> (tested at Lucideon against EAD 040089).</li>
+                    <li>Delivered UK projects including Burrows Court Residential Complex, 52 Victoria Road Aldershot, and 72-88 St Stephens Road Enfield modular extension.</li>
                 </ul>
             </div>
 
@@ -218,8 +271,8 @@
                 <h3>Tekla Designer / Structural Steel & Project Coordinator</h3>
                 <div class="company-date">Bahadir Construction | Al-Udeid Air Base (PK-27), Qatar | Mar 2013 – Apr 2017</div>
                 <ul>
-                    <li>Managed full structural steel lifecycle for PK-27 military facilities from initial foundation design to final handover of the C-17 aircraft hangar[cite: 5].</li>
-                    <li>Coordinated roof and wall claddings, heavy hangar sliding doors, sectional doors, and miscellaneous metalworks[cite: 5].</li>
+                    <li>Managed full structural steel lifecycle for PK-27 military facilities from initial foundation design to final handover of the C-17 aircraft hangar.</li>
+                    <li>Coordinated roof and wall claddings, heavy hangar sliding doors, sectional doors, and miscellaneous metalworks.</li>
                 </ul>
             </div>
 
@@ -227,7 +280,7 @@
                 <h3>Tekla Designer / Design Coordinator</h3>
                 <div class="company-date">Glentec Engineering Service LLP | Qatar National Museum & NDIA (CP-133), Qatar | Apr 2012 – Feb 2013</div>
                 <ul>
-                    <li>Coordinated client-site design for mega-projects including New Doha International Airport Business Lounge Mezzanine and Qatar National Museum[cite: 5].</li>
+                    <li>Coordinated client-site design for mega-projects including New Doha International Airport Business Lounge Mezzanine and Qatar National Museum.</li>
                 </ul>
             </div>
 
@@ -235,7 +288,7 @@
                 <h3>Engineer-Design (Petrochemical & Nuclear Division)</h3>
                 <div class="company-date">Design Support Service India (Manoir Industries France Subsidiary) | May 2011 – Apr 2012</div>
                 <ul>
-                    <li>Handled pipe thickness calculations, 3D modeling, and shop drawings for cracking/reforming tubes, radiant coils, collectors, and transfer lines[cite: 5]. Visited Pitres plant in France[cite: 5].</li>
+                    <li>Handled pipe thickness calculations, 3D modeling, and shop drawings for cracking/reforming tubes, radiant coils, collectors, and transfer lines. Visited Pitres plant in France.</li>
                 </ul>
             </div>
 
@@ -243,7 +296,7 @@
                 <h3>CAD-Engineer</h3>
                 <div class="company-date">Black Stone Group of Technologies, Chennai | May 2007 – Apr 2011</div>
                 <ul>
-                    <li>Prepared GA and fabrication detail drawings for structural buildings, power plants, coal handling conveyors, junction towers, and crusher houses[cite: 5].</li>
+                    <li>Prepared GA and fabrication detail drawings for structural buildings, power plants, coal handling conveyors, junction towers, and crusher houses.</li>
                 </ul>
             </div>
 
@@ -253,8 +306,8 @@
         <div class="card">
             <h2>Education & Certifications</h2>
             <ul>
-                <li><strong>Diploma in Mechanical Engineering:</strong> 3-year polytechnic diploma (2007, Passed with 90%)[cite: 5].</li>
-                <li><strong>BSI Certified:</strong> BIM Project Information Practitioner & BIM Project Information Professional[cite: 5].</li>
+                <li><strong>Diploma in Mechanical Engineering:</strong> 3-year polytechnic diploma (2007, Passed with 90%).</li>
+                <li><strong>BSI Certified:</strong> BIM Project Information Practitioner & BIM Project Information Professional.</li>
             </ul>
         </div>
 
