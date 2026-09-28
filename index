@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fazullah Amanullah | Senior Façade Specialist & Structural Designer</title>
+    <style>
+        :root {
+            --primary: #0f172a; /* Deep Slate Navy */
+            --accent: #2563eb;  /* Professional Royal Blue */
+            --accent-light: #eff6ff;
+            --text: #334155;
+            --bg: #f8fafc;
+            --white: #ffffff;
+            --border: #e2e8f0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: var(--text);
+            background-color: var(--bg);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: var(--white);
+            padding: 4rem 2rem;
+            text-align: center;
+            border-bottom: 4px solid var(--accent);
+        }
+        header h1 {
+            margin: 0 0 0.5rem 0;
+            font-size: 2.5rem;
+            letter-spacing: -0.5px;
+        }
+        header .title-sub {
+            font-size: 1.2rem;
+            color: #93c5fd;
+            font-weight: 500;
+            margin-bottom: 1rem;
+        }
+        .contact-bar {
+            margin-top: 1.5rem;
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            font-size: 0.95rem;
+        }
+        .contact-bar a {
+            color: #93c5fd;
+            text-decoration: none;
+        }
+        .contact-bar a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1000px;
+            margin: -2rem auto 3rem auto;
+            padding: 0 1.5rem;
+            position: relative;
+        }
+        .card {
+            background: var(--white);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+        }
+        h2 {
+            color: var(--primary);
+            font-size: 1.4rem;
+            border-bottom: 2px solid var(--accent-light);
+            padding-bottom: 0.75rem;
+            margin-top: 0;
+        }
+        .badge-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+        .badge {
+            background-color: var(--accent-light);
+            color: var(--accent);
+            padding: 0.35rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+        .experience-item {
+            margin-bottom: 1.8rem;
+            border-left: 3px solid var(--accent);
+            padding-left: 1.2rem;
+        }
+        .experience-item h3 {
+            margin: 0 0 0.2rem 0;
+            color: var(--primary);
+            font-size: 1.1rem;
+        }
+        .experience-item .company-date {
+            font-size: 0.9rem;
+            color: #64748b;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        .experience-item ul {
+            padding-left: 1rem;
+            margin: 0.5rem 0 0 0;
+        }
+        .experience-item li {
+            font-size: 0.95rem;
+            margin-bottom: 0.4rem;
+            color: #475569;
+        }
+        .btn-container {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1.5rem;
+            flex-wrap: wrap;
+        }
+        .btn {
+            background-color: var(--accent);
+            color: var(--white);
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.2s;
+            display: inline-block;
+            box-shadow: 0 2px 4px rgba(37, 99, 235, 0.2);
+        }
+        .btn:hover {
+            background-color: #1d4ed8;
+        }
+        footer {
+            text-align: center;
+            padding: 2.5rem;
+            color: #64748b;
+            font-size: 0.9rem;
+            border-top: 1px solid var(--border);
+            background: var(--white);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Fazullah Amanullah</h1>
+        <div class="title-sub">Senior Structural Steel & Façade Specialist</div>
+        <p>19+ Years Experience in End-to-End Structural Engineering, Parametric Design & BIM Automation</p>
+        <div class="contact-bar">
+            <span>📧 <a href="mailto:thefazulu@yahoo.com">thefazulu@yahoo.com</a></span>
+            <span>📱 +965 9407 0330</span>
+            <span>📍 Kuwait / UK Remote & Relocation</span>
+        </div>
+    </header>
+
+    <div class="container">
+        
+        <!-- Profile Card -->
+        <div class="card">
+            <h2>Professional Profile</h2>
+            <p>Senior Structural Steel & Façade Specialist with 19+ years of experience leading end-to-end structural engineering, parametric design, BIM coordination, and site supervision[cite: 5]. Backed by 14+ years across the GCC, successfully delivering iconic mega-projects including Kuwait International Airport (Terminal 2), Qatar National Museum (QNM), NDIA, and Al-Udeid Air Base[cite: 5]. Committed to driving design-to-construction automation using computational BIM workflows across Tekla Structures, Rhino/Grasshopper, Revit/Dynamo, and Navisworks[cite: 5].</p>
+            
+            <div class="btn-container">
+                <a href="Fazullah_Amanullah_Portfolio.pptx" class="btn" download>📥 Download Presentation Portfolio (PPTX)</a>
+            </div>
+        </div>
+
+        <!-- Software Skills & Competencies -->
+        <div class="card">
+            <h2>Software & Technical Competencies</h2>
+            <div class="badge-container">
+                <span class="badge">Tekla Structures / Trimble</span>
+                <span class="badge">AutoCAD</span>
+                <span class="badge">Autodesk Revit & Dynamo</span>
+                <span class="badge">Rhino 7.0 & Grasshopper</span>
+                <span class="badge">Navisworks</span>
+                <span class="badge">Vertex BD (LGS)</span>
+                <span class="badge">BS 8414-2 / BRE Fire Testing</span>
+                <span class="badge">CWCT & UL Accreditations</span>
+                <span class="badge">KIWA BDA Agrément</span>
+                <span class="badge">Building Safety Act Gateway 2</span>
+            </div>
+        </div>
+
+        <!-- Experience Section -->
+        <div class="card">
+            <h2>Professional Experience</h2>
+
+            <div class="experience-item">
+                <h3>Senior Structural Designer</h3>
+                <div class="company-date">Limak Insaat | Kuwait International Airport (T2) | Jul 2017 – Present</div>
+                <ul>
+                    <li>Perform comprehensive structural design from conceptual sketches & 3D modeling to GA drawings, shop drawings, and BOM reports[cite: 5].</li>
+                    <li>Architect parametric workflows transforming complex curved surfaces into precise, fabrication-ready steel assemblies using Rhino/Grasshopper and Tekla Structures[cite: 5].</li>
+                    <li>Manage Site Change Requests (NCR & FCR) and coordinate steel embeds on complex precast concrete ribs and spines[cite: 5].</li>
+                    <li>Designed temporary erection towers (Base + Standard + Top Module + Headstock + Shoe) for erection sequences[cite: 5].</li>
+                    <li>Engineered complex waterfall features, 3D glass planks, secondary purlins, and roof funnel internal brass cladding with 4D Navisworks animations[cite: 5].</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3>Technical Manager / Engineering Consultant (Remote)</h3>
+                <div class="company-date">Echo Facades Engineering Solutions Ltd, UK | Feb 2016 – Present</div>
+                <ul>
+                    <li>Lead advanced external wall systems and facades (ventilated rainscreen and ETICS), light-gauge steel (LGS) modular construction, and UK regulatory compliance[cite: 5].</li>
+                    <li>Directed system accreditations under UK standards: UL, KIWA, CWCT, and BRE BS 8414-2[cite: 5].</li>
+                    <li>Managed R&D, design concepts, and testing for the <strong>Salamander BrickSlip Rainscreen System</strong> and <strong>RAFI ETICS BrickSlip System</strong> (tested at Lucideon against EAD 040089)[cite: 5].</li>
+                    <li>Delivered UK projects including Burrows Court Residential Complex, 52 Victoria Road Aldershot, and 72-88 St Stephens Road Enfield modular extension[cite: 5].</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3>Tekla Designer / Structural Steel & Project Coordinator</h3>
+                <div class="company-date">Bahadir Construction | Al-Udeid Air Base (PK-27), Qatar | Mar 2013 – Apr 2017</div>
+                <ul>
+                    <li>Managed full structural steel lifecycle for PK-27 military facilities from initial foundation design to final handover of the C-17 aircraft hangar[cite: 5].</li>
+                    <li>Coordinated roof and wall claddings, heavy hangar sliding doors, sectional doors, and miscellaneous metalworks[cite: 5].</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3>Tekla Designer / Design Coordinator</h3>
+                <div class="company-date">Glentec Engineering Service LLP | Qatar National Museum & NDIA (CP-133), Qatar | Apr 2012 – Feb 2013</div>
+                <ul>
+                    <li>Coordinated client-site design for mega-projects including New Doha International Airport Business Lounge Mezzanine and Qatar National Museum[cite: 5].</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3>Engineer-Design (Petrochemical & Nuclear Division)</h3>
+                <div class="company-date">Design Support Service India (Manoir Industries France Subsidiary) | May 2011 – Apr 2012</div>
+                <ul>
+                    <li>Handled pipe thickness calculations, 3D modeling, and shop drawings for cracking/reforming tubes, radiant coils, collectors, and transfer lines[cite: 5]. Visited Pitres plant in France[cite: 5].</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3>CAD-Engineer</h3>
+                <div class="company-date">Black Stone Group of Technologies, Chennai | May 2007 – Apr 2011</div>
+                <ul>
+                    <li>Prepared GA and fabrication detail drawings for structural buildings, power plants, coal handling conveyors, junction towers, and crusher houses[cite: 5].</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Education & Certifications -->
+        <div class="card">
+            <h2>Education & Certifications</h2>
+            <ul>
+                <li><strong>Diploma in Mechanical Engineering:</strong> 3-year polytechnic diploma (2007, Passed with 90%)[cite: 5].</li>
+                <li><strong>BSI Certified:</strong> BIM Project Information Practitioner & BIM Project Information Professional[cite: 5].</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Fazullah Amanullah. All rights reserved. Built for Senior Engineering Leadership.</p>
+    </footer>
+
+</body>
+</html>
